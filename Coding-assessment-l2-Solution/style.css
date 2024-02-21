@@ -1,0 +1,58 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  background-color: #eee;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.tab-button.active {
+  background-color: #ddd;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.badge {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
